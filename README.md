@@ -19,7 +19,7 @@
 
 ### View:
 
-*View displays the data provided by model an interacts with users or clients.Normally, view doesnot contain any business logic and its primary goal is to present information to the user in an understandable manner.
+* View displays the data provided by model an interacts with users or clients.Normally, view doesnot contain any business logic and its primary goal is to present information to the user in an understandable manner.
 
 ### Controller:
 * It receives input from the user via view,processes that input and redirect the request or input to the model and performs equivalent action.
@@ -43,38 +43,7 @@ View is used to represent the information in a particular format.
 * The controller returns an object of   Model and View.
 * THe DispatcherServlet checks the entry of view resolver in the XML file and invokes the specified view component.
 
-# Required Configuration:
-We need to map requests that the DispatcherServlet to handle,by using URL mapping in the web.xml file.
 
-
-
-
-<web-app id = "WebApp_ID" version = "2.4"
-   xmlns = "http://java.sun.com/xml/ns/j2ee" 
-   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation = "http://java.sun.com/xml/ns/j2ee 
-   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
-    
-   <display-name>Spring MVC Application</display-name>
-   
-   <servlet>
-      <servlet-name>HelloWeb</servlet-name>
-      <servlet-class>
-         org.springframework.web.servlet.DispatcherServlet
-      </servlet-class>
-      <load-on-startup>1</load-on-startup>
-   </servlet>
-
-   <servlet-mapping>
-      <servlet-name>HelloWeb</servlet-name>
-      <url-pattern>*.jsp</url-pattern>
-   </servlet-mapping>
-
-</web-app>
-
-# Defining a controller
-The DispatcherServlet delegates the request to the controllers to execute the functionality specific to it.
-The @Controller annotation indicates that a particular class serves the role of a controller,THe @RequestMapping annotation is used to map a URL to either an entire class .
 
 # References:
 * https://youtu.be/Bel2aWpWZWE?si=TBP157oP613D72JK
