@@ -27,7 +27,7 @@
 * Don't use mobile phones or any screens before going to the bed or while in the bed to maintain a healthy sleep cycle
 * Skip caffeine and heavy meals later in the day.
 * Take time to relax before bed, such as by reading or practicing deep breathing.
-#### 6.6. Paraphrase the video - Brain Changing Benefits of Exercise. Minimum 5 points, only the points.
+#### 6.Paraphrase the video - Brain Changing Benefits of Exercise. Minimum 5 points, only the points.
 
 * Regular exercise improves brain adaptability and plasticity.
 * Exercise boosts brain function, improving memory, learning, and mood.
